@@ -11,5 +11,12 @@
 }
 
 .featureImg {
-  width: 60%;
+  width: 80%;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 996px) {
+  .featureImg {
+    width: 100%;
+  }
 }

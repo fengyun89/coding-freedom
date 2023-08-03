@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '探索独立开发',
   tagline: '用程序员自己的方式',
-  favicon: 'https://github.com/coding-freedom.png',
+  favicon: '/img/logo.png',
 
   // Set the production url of your site here
   url: 'https://coding-freedom.com',
@@ -59,7 +59,7 @@ const config = {
         title: '探索独立开发',
         logo: {
           alt: '探索独立开发',
-          src: 'https://github.com/coding-freedom.png',
+          src: '/img/logo.png',
         },
         items: [
           {

@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: '紧紧抓住时代赋予程序员的机遇，奋力一搏？',
-    Svg: require('@site/static/img/hero.jpeg').default,
+    Svg: require('@site/static/img/hero.jpg').default,
   },
 ];
 

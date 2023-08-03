@@ -149,6 +149,13 @@ const sidebars = {
         'c++/intro',
       ],
     },
+    {
+      type: 'category',
+      label: '计算机系统',
+      items: [
+        'cs/intro',
+      ],
+    },
   ],
 };
 

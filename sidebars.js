@@ -115,6 +115,20 @@ const sidebars = {
         'design-patterns/intro',
       ],
     },
+    {
+      type: 'category',
+      label: 'C语言',
+      items: [
+        'c/intro',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'C++',
+      items: [
+        'c++/intro',
+      ],
+    },
   ],
 };
 

@@ -99,6 +99,26 @@ const sidebars = {
       ],
     },
   ],
+  spring: [
+    'spring',
+    {
+      type: 'category',
+      label: 'Spring',
+      items: [
+        'spring/intro',
+      ],
+    },
+  ],
+  databases: [
+    'databases',
+    {
+      type: 'category',
+      label: 'PostgreSQL',
+      items: [
+        'postgresql/intro',
+      ],
+    },
+  ],
   base: [
     'base',
     {

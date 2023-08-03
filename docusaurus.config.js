@@ -88,6 +88,18 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'spring',
+            position: 'left',
+            label: 'Spring',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'databases',
+            position: 'left',
+            label: '数据库',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'base',
             position: 'left',
             label: '编程基础',

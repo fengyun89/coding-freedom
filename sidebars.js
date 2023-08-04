@@ -193,6 +193,14 @@ const sidebars = {
         'git/overview',
       ],
     },
+    {
+      type: 'category',
+      label: 'Windows',
+      items: [
+        'windows/overview',
+        'windows/Windows PowerShell 命令',
+      ],
+    },
   ],
 };
 

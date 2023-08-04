@@ -26,42 +26,42 @@ const sidebars = {
       type: 'category',
       label: 'SvelteKit',
       items: [
-        'sveltekit/intro',
+        'sveltekit/overview',
       ],
     },
     {
       type: 'category',
       label: 'Svelte',
       items: [
-        'svelte/intro',
+        'svelte/overview',
       ],
     },
     {
       type: 'category',
       label: 'JavaScript',
       items: [
-        'javascript/intro',
+        'javascript/overview',
       ],
     },
     {
       type: 'category',
       label: 'TypeScript',
       items: [
-        'typescript/intro',
+        'typescript/overview',
       ],
     },
     {
       type: 'category',
       label: 'HTML',
       items: [
-        'html/intro',
+        'html/overview',
       ],
     },
     {
       type: 'category',
       label: 'CSS',
       items: [
-        'css/intro',
+        'css/overview',
       ],
     },
   ],
@@ -71,14 +71,14 @@ const sidebars = {
       type: 'category',
       label: 'Jetpack Compose',
       items: [
-        'jetpack-compose/intro',
+        'jetpack-compose/overview',
       ],
     },
     {
       type: 'category',
       label: 'Kotlin',
       items: [
-        'kotlin/intro',
+        'kotlin/overview',
       ],
     },
   ],
@@ -88,14 +88,14 @@ const sidebars = {
       type: 'category',
       label: 'SwiftUI',
       items: [
-        'swiftui/intro',
+        'swiftui/overview',
       ],
     },
     {
       type: 'category',
       label: 'Swift',
       items: [
-        'swift/intro',
+        'swift/overview',
       ],
     },
   ],
@@ -105,7 +105,7 @@ const sidebars = {
       type: 'category',
       label: 'Spring',
       items: [
-        'spring/intro',
+        'spring/overview',
       ],
     },
   ],
@@ -115,14 +115,14 @@ const sidebars = {
       type: 'category',
       label: 'PostgreSQL',
       items: [
-        'postgresql/intro',
+        'postgresql/overview',
       ],
     },
     {
       type: 'category',
       label: 'Redis',
       items: [
-        'redis/intro',
+        'redis/overview',
       ],
     },
   ],
@@ -132,35 +132,35 @@ const sidebars = {
       type: 'category',
       label: '数据结构与算法',
       items: [
-        'data-structures-algorithms/intro',
+        'data-structures-algorithms/overview',
       ],
     },
     {
       type: 'category',
       label: '设计模式',
       items: [
-        'design-patterns/intro',
+        'design-patterns/overview',
       ],
     },
     {
       type: 'category',
       label: 'C语言',
       items: [
-        'c/intro',
+        'c/overview',
       ],
     },
     {
       type: 'category',
       label: 'C++',
       items: [
-        'c++/intro',
+        'c++/overview',
       ],
     },
     {
       type: 'category',
       label: '计算机系统',
       items: [
-        'cs/intro',
+        'cs/overview',
       ],
     },
   ],

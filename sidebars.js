@@ -90,6 +90,18 @@ const sidebars = {
       ],
     },
   ],
+  qt: [
+    'qt/overview',
+    {
+      type: 'html',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
+    },
+    {
+      type: 'link',
+      label: 'C++',
+      href: '/docs/c++/overview',
+    },
+  ],
   spring: [
     'spring/overview',
     {

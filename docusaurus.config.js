@@ -88,6 +88,12 @@ const config = {
           },
           {
             type: 'docSidebar',
+            sidebarId: 'qt',
+            position: 'left',
+            label: 'Qt',
+          },
+          {
+            type: 'docSidebar',
             sidebarId: 'spring',
             position: 'left',
             label: 'Spring',

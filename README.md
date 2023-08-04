@@ -10,4 +10,4 @@
 
 紧紧抓住时代赋予程序员的机遇，奋力一搏？
 
-![](./static/img/hero.jpeg)
+![](./static/img/hero.jpg)

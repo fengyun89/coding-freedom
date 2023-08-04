@@ -21,13 +21,10 @@ const sidebars = {
     'start',
   ],
   fe: [
-    'sveltekit',
+    'sveltekit/overview',
     {
-      type: 'category',
-      label: 'SvelteKit',
-      items: [
-        'sveltekit/overview',
-      ],
+      type: 'html',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
     },
     {
       type: 'category',
@@ -66,13 +63,10 @@ const sidebars = {
     },
   ],
   android: [
-    'jetpack-compose',
+    'jetpack-compose/overview',
     {
-      type: 'category',
-      label: 'Jetpack Compose',
-      items: [
-        'jetpack-compose/overview',
-      ],
+      type: 'html',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
     },
     {
       type: 'category',
@@ -83,13 +77,10 @@ const sidebars = {
     },
   ],
   apple: [
-    'swiftui',
+    'swiftui/overview',
     {
-      type: 'category',
-      label: 'SwiftUI',
-      items: [
-        'swiftui/overview',
-      ],
+      type: 'html',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
     },
     {
       type: 'category',
@@ -100,13 +91,15 @@ const sidebars = {
     },
   ],
   spring: [
-    'spring',
+    'spring/overview',
     {
-      type: 'category',
-      label: 'Spring',
-      items: [
-        'spring/overview',
-      ],
+      type: 'html',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
+    },
+    {
+      type: 'link',
+      label: 'Kotlin',
+      href: '/docs/kotlin/overview',
     },
   ],
   databases: [

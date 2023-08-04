@@ -28,3 +28,14 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.menu-divider {
+  padding-top: 1.4rem;
+}
+.menu-divider a {
+  color: var(--ifm-font-color-base);
+}
+.menu-divider a:hover {
+  background-color: initial;
+  color: initial;
+}

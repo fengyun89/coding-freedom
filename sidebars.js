@@ -118,6 +118,13 @@ const sidebars = {
         'postgresql/intro',
       ],
     },
+    {
+      type: 'category',
+      label: 'Redis',
+      items: [
+        'redis/intro',
+      ],
+    },
   ],
   base: [
     'base',

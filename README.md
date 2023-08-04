@@ -10,4 +10,4 @@
 
 紧紧抓住时代赋予程序员的机遇，奋力一搏？
 
-![](https://github.com/coding-freedom/coding-freedom/blob/main/static/img/hero.jpeg)
+![](./static/img/hero.jpeg)

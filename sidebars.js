@@ -24,7 +24,7 @@ const sidebars = {
     'sveltekit/overview',
     {
       type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
     },
     {
       type: 'category',
@@ -66,7 +66,7 @@ const sidebars = {
     'jetpack-compose/overview',
     {
       type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
     },
     {
       type: 'category',
@@ -80,7 +80,7 @@ const sidebars = {
     'swiftui/overview',
     {
       type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
     },
     {
       type: 'category',
@@ -94,7 +94,7 @@ const sidebars = {
     'spring/overview',
     {
       type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技能</a></li>',
+      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
     },
     {
       type: 'link',

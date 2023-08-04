@@ -69,6 +69,13 @@ const sidebars = {
         'tailwindcss/overview',
       ],
     },
+    {
+      type: 'category',
+      label: 'Node.js',
+      items: [
+        'node.js/overview',
+      ],
+    },
   ],
   android: [
     'jetpack-compose/overview',

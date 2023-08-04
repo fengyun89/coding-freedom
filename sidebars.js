@@ -74,6 +74,7 @@ const sidebars = {
       label: 'Node.js',
       items: [
         'node.js/overview',
+        'node.js/npm 更换淘宝源',
       ],
     },
   ],
@@ -181,6 +182,13 @@ const sidebars = {
       label: '计算机系统',
       items: [
         'cs/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Git',
+      items: [
+        'git/overview',
       ],
     },
   ],

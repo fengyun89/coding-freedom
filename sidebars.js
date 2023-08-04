@@ -23,6 +23,8 @@ const sidebars = {
   fe: [
     'sveltekit/overview',
     'sveltekit/创建 SvelteKit 应用',
+    'sveltekit/配置 Prettier 和 ESLint/index',
+    'sveltekit/配置 Tailwind CSS',
     {
       type: 'html',
       value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',

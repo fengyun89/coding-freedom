@@ -22,6 +22,7 @@ const sidebars = {
   ],
   fe: [
     'sveltekit/overview',
+    'sveltekit/创建 SvelteKit 应用',
     {
       type: 'html',
       value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
@@ -61,6 +62,13 @@ const sidebars = {
         'css/overview',
       ],
     },
+    {
+      type: 'category',
+      label: 'Tailwind CSS',
+      items: [
+        'tailwindcss/overview',
+      ],
+    },
   ],
   android: [
     'jetpack-compose/overview',
@@ -98,7 +106,7 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'C++',
+      label: 'C++ 🔗',
       href: '/docs/c++/overview',
     },
   ],
@@ -110,7 +118,7 @@ const sidebars = {
     },
     {
       type: 'link',
-      label: 'Kotlin',
+      label: 'Kotlin 🔗',
       href: '/docs/kotlin/overview',
     },
   ],

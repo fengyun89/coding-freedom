@@ -199,6 +199,7 @@ const sidebars = {
       items: [
         'windows/overview',
         'windows/Windows PowerShell 命令',
+        'windows/Windows 快捷键',
       ],
     },
   ],

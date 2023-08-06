@@ -181,11 +181,20 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: '编译原理',
+      items: [
+        'compiling/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: '计算机系统',
       items: [
         'cs/overview',
       ],
     },
+  ],
+  'tools': [
     {
       type: 'category',
       label: 'Git',

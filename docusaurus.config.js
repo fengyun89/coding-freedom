@@ -108,7 +108,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'base',
             position: 'left',
-            label: '编程基础',
+            label: '基础',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tools',
+            position: 'left',
+            label: '工具',
           },
           {
             type: 'docSidebar',

@@ -203,6 +203,10 @@ const sidebars = {
       ],
     },
   ],
+  'self-management': [
+    'self-management/overview',
+    'self-management/运用 OGSM 制定年计划/index',
+  ],
 };
 
 module.exports = sidebars;

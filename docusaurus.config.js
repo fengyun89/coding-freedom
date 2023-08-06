@@ -110,6 +110,12 @@ const config = {
             position: 'left',
             label: '编程基础',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'self-management',
+            position: 'left',
+            label: '自我管理',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/coding-freedom',

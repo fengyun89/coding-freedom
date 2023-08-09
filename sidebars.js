@@ -156,6 +156,12 @@ const sidebars = {
       label: '数据结构与算法',
       items: [
         'data-structures-algorithms/overview',
+        'data-structures-algorithms/数据结构/index',
+        'data-structures-algorithms/线性表',
+        'data-structures-algorithms/栈',
+        'data-structures-algorithms/队列',
+        'data-structures-algorithms/树',
+        'data-structures-algorithms/图',
       ],
     },
     {

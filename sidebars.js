@@ -132,23 +132,6 @@ const sidebars = {
       href: '/docs/kotlin/overview',
     },
   ],
-  databases: [
-    'databases',
-    {
-      type: 'category',
-      label: 'PostgreSQL',
-      items: [
-        'postgresql/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Redis',
-      items: [
-        'redis/overview',
-      ],
-    },
-  ],
   base: [
     'base',
     {
@@ -183,6 +166,26 @@ const sidebars = {
       label: 'C++',
       items: [
         'c++/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: '数据库',
+      items: [
+        {
+          type: 'category',
+          label: 'PostgreSQL',
+          items: [
+            'postgresql/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Redis',
+          items: [
+            'redis/overview',
+          ],
+        },
       ],
     },
     {

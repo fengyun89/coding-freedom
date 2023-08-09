@@ -100,15 +100,9 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'databases',
-            position: 'left',
-            label: '数据库',
-          },
-          {
-            type: 'docSidebar',
             sidebarId: 'base',
             position: 'left',
-            label: '基础',
+            label: '编程基础',
           },
           {
             type: 'docSidebar',

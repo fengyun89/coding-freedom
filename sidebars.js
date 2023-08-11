@@ -20,22 +20,24 @@ const sidebars = {
   start: [
     'start',
   ],
-  fe: [
-    'sveltekit/overview',
-    'sveltekit/创建 SvelteKit 应用',
-    'sveltekit/配置 Prettier 和 ESLint/index',
-    'sveltekit/配置 Tailwind CSS',
-    {
-      type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
-    },
-    {
-      type: 'category',
-      label: 'Svelte',
-      items: [
-        'svelte/overview',
-      ],
-    },
+  'data-structures-and-algorithms': [
+    'data-structures-and-algorithms/概览/index',
+    'data-structures-and-algorithms/线性表',
+    'data-structures-and-algorithms/栈',
+    'data-structures-and-algorithms/队列',
+    'data-structures-and-algorithms/字符串',
+    'data-structures-and-algorithms/集合',
+    'data-structures-and-algorithms/字典',
+    'data-structures-and-algorithms/哈希表',
+    'data-structures-and-algorithms/树',
+    'data-structures-and-algorithms/图',
+    'data-structures-and-algorithms/排序',
+    'data-structures-and-algorithms/搜索',
+  ],
+  'design-patterns': [
+    'design-patterns/overview',
+  ],
+  languages: [
     {
       type: 'category',
       label: 'JavaScript',
@@ -52,39 +54,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'HTML',
+      label: 'Java',
       items: [
-        'html/overview',
+        'java/overview',
       ],
-    },
-    {
-      type: 'category',
-      label: 'CSS',
-      items: [
-        'css/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Tailwind CSS',
-      items: [
-        'tailwindcss/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Node.js',
-      items: [
-        'node.js/overview',
-        'node.js/npm 更换淘宝源',
-      ],
-    },
-  ],
-  android: [
-    'jetpack-compose/overview',
-    {
-      type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
     },
     {
       type: 'category',
@@ -93,69 +66,11 @@ const sidebars = {
         'kotlin/overview',
       ],
     },
-  ],
-  apple: [
-    'swiftui/overview',
-    {
-      type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
-    },
     {
       type: 'category',
       label: 'Swift',
       items: [
         'swift/overview',
-      ],
-    },
-  ],
-  qt: [
-    'qt/overview',
-    {
-      type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
-    },
-    {
-      type: 'link',
-      label: 'C++ 🔗',
-      href: '/docs/c++/overview',
-    },
-  ],
-  spring: [
-    'spring/overview',
-    {
-      type: 'html',
-      value: '<li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item menu-divider"><a class="menu__link">前置技术</a></li>',
-    },
-    {
-      type: 'link',
-      label: 'Kotlin 🔗',
-      href: '/docs/kotlin/overview',
-    },
-  ],
-  base: [
-    {
-      type: 'category',
-      label: '数据结构与算法',
-      items: [
-        'data-structures-and-algorithms/概览/index',
-        'data-structures-and-algorithms/线性表',
-        'data-structures-and-algorithms/栈',
-        'data-structures-and-algorithms/队列',
-        'data-structures-and-algorithms/字符串',
-        'data-structures-and-algorithms/集合',
-        'data-structures-and-algorithms/字典',
-        'data-structures-and-algorithms/哈希表',
-        'data-structures-and-algorithms/树',
-        'data-structures-and-algorithms/图',
-        'data-structures-and-algorithms/排序',
-        'data-structures-and-algorithms/搜索',
-      ],
-    },
-    {
-      type: 'category',
-      label: '设计模式',
-      items: [
-        'design-patterns/overview',
       ],
     },
     {
@@ -172,62 +87,6 @@ const sidebars = {
         'c++/overview',
       ],
     },
-    {
-      type: 'category',
-      label: '数据库',
-      items: [
-        {
-          type: 'category',
-          label: 'PostgreSQL',
-          items: [
-            'postgresql/overview',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Redis',
-          items: [
-            'redis/overview',
-          ],
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: '编译原理',
-      items: [
-        'compiling/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: '计算机系统',
-      items: [
-        'cs/overview',
-      ],
-    },
-  ],
-  'tools': [
-    {
-      type: 'category',
-      label: 'Git',
-      items: [
-        'git/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Windows',
-      items: [
-        'windows/overview',
-        'windows/Windows PowerShell 命令',
-        'windows/Windows 快捷键',
-      ],
-    },
-  ],
-  'self-management': [
-    'self-management/overview',
-    'self-management/运用 OGSM 制定年计划/index',
   ],
 };
 

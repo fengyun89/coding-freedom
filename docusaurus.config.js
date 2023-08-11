@@ -86,7 +86,7 @@ const config = {
             position: 'left',
             label: '编程语言',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/coding-freedom',
             label: 'GitHub',

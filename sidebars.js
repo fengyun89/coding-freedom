@@ -54,6 +54,13 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Python',
+      items: [
+        'python/overview',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Java',
       items: [
         'java/overview',
@@ -64,6 +71,20 @@ const sidebars = {
       label: 'Kotlin',
       items: [
         'kotlin/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'C#',
+      items: [
+        'csharp/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Go',
+      items: [
+        'go/overview',
       ],
     },
     {
@@ -85,6 +106,13 @@ const sidebars = {
       label: 'C++',
       items: [
         'c++/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Rust',
+      items: [
+        'rust/overview',
       ],
     },
   ],

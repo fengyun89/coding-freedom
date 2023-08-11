@@ -147,6 +147,8 @@ const sidebars = {
         'data-structures-and-algorithms/哈希表',
         'data-structures-and-algorithms/树',
         'data-structures-and-algorithms/图',
+        'data-structures-and-algorithms/排序',
+        'data-structures-and-algorithms/搜索',
       ],
     },
     {

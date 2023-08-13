@@ -31,8 +31,8 @@ const sidebars = {
     'data-structures-and-algorithms/哈希表',
     'data-structures-and-algorithms/树',
     'data-structures-and-algorithms/图',
-    'data-structures-and-algorithms/排序',
-    'data-structures-and-algorithms/搜索',
+    'data-structures-and-algorithms/排序算法',
+    'data-structures-and-algorithms/搜索算法',
   ],
   'design-patterns': [
     'design-patterns/overview',

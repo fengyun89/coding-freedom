@@ -63,7 +63,7 @@ const sidebars = {
         'data-structures-and-algorithms/队列/队列的应用',
       ],
     },
-    'data-structures-and-algorithms/字符串',
+    'data-structures-and-algorithms/串',
     'data-structures-and-algorithms/集合',
     'data-structures-and-algorithms/字典',
     'data-structures-and-algorithms/哈希表',

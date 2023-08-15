@@ -278,20 +278,16 @@ const sidebars = {
         'software-engineering/index',
       ],
     },
+  ],
+  product: [
     {
       type: 'category',
-      label: '产品',
+      label: '竞品分析',
       items: [
-        {
-          type: 'category',
-          label: '竞品分析',
-          items: [
-            'product/竞品分析/index',
-          ],
-        }
+        'product/竞品分析/index',
       ],
-    },
-  ],
+    }
+  ]
 };
 
 module.exports = sidebars;

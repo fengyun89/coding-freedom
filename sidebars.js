@@ -40,11 +40,6 @@ const sidebars = {
             '逻辑学/辩证逻辑/index',
           ],
         },
-        {
-          type: 'link',
-          label: '数理逻辑 🔗',
-          href: encodeURI('/docs/数学/离散数学/数理逻辑/'),
-        },
       ],
     },
     {
@@ -71,13 +66,6 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: '数理逻辑',
-              items: [
-                '数学/离散数学/数理逻辑/index',
-              ],
-            },
-            {
-              type: 'category',
               label: '集合论',
               items: [
                 '数学/离散数学/集合论/index',
@@ -88,6 +76,20 @@ const sidebars = {
               label: '图论',
               items: [
                 '数学/离散数学/图论/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '排列组合',
+              items: [
+                '数学/离散数学/排列组合/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '数理逻辑',
+              items: [
+                '数学/离散数学/数理逻辑/index',
               ],
             },
           ],

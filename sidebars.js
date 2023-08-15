@@ -25,7 +25,26 @@ const sidebars = {
       type: 'category',
       label: '逻辑学',
       items: [
-        'logic/index',
+        '逻辑学/index',
+        {
+          type: 'category',
+          label: '形式逻辑',
+          items: [
+            '逻辑学/形式逻辑/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '辩证逻辑',
+          items: [
+            '逻辑学/辩证逻辑/index',
+          ],
+        },
+        {
+          type: 'link',
+          label: '数理逻辑 🔗',
+          href: encodeURI('/docs/数学/离散数学/数理逻辑/'),
+        },
       ],
     },
     {
@@ -34,44 +53,43 @@ const sidebars = {
       items: [
         {
           type: 'category',
-          label: '集合论',
-          items: [
-            'mathematics/set-theory/index',
-          ],
-        },
-        {
-          type: 'category',
-          label: '数理逻辑',
-          items: [
-            'mathematics/mathematical-logic/index',
-          ],
-        },
-        {
-          type: 'category',
-          label: '图论',
-          items: [
-            'mathematics/graph-theory/index',
-          ],
-        },
-        {
-          type: 'category',
           label: '线性代数',
           items: [
-            'mathematics/linear-algebra/index',
+            '数学/线性代数/index',
           ],
         },
         {
           type: 'category',
           label: '概率论',
           items: [
-            'mathematics/probability-theory/index',
+            '数学/概率论/index',
           ],
         },
         {
           type: 'category',
           label: '离散数学',
           items: [
-            'mathematics/discrete-mathematics/index',
+            {
+              type: 'category',
+              label: '数理逻辑',
+              items: [
+                '数学/离散数学/数理逻辑/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '集合论',
+              items: [
+                '数学/离散数学/集合论/index',
+              ],
+            },
+            {
+              type: 'category',
+              label: '图论',
+              items: [
+                '数学/离散数学/图论/index',
+              ],
+            },
           ],
         },
       ],
@@ -80,61 +98,63 @@ const sidebars = {
       type: 'category',
       label: '数字电路',
       items: [
-        'digital-circuit/index',
+        '数字电路/index',
       ],
     },
     {
       type: 'category',
       label: '计算机体系结构',
       items: [
-        'computer-architecture/index',
+        '计算机体系结构/index',
       ],
     },
     {
       type: 'category',
       label: '计算机组成',
       items: [
-        'computer-organization/index',
+        '计算机组成/index',
       ],
     },
     {
       type: 'category',
       label: '操作系统',
       items: [
-        'operating-system/index',
+        '操作系统/index',
       ],
     },
     {
       type: 'category',
       label: '计算机网络',
       items: [
-        'computer-network/index',
+        '计算机网络/index',
       ],
     },
     {
       type: 'category',
       label: '编译原理',
       items: [
-        'compiler-principles/index',
+        '编译原理/index',
       ],
     },
     {
       type: 'category',
       label: '数据结构与算法',
       items: [
-        'data-structures-and-algorithms/index',
+        '数据结构与算法/什么是数据结构',
+        '数据结构与算法/什么是算法',
+        '数据结构与算法/如何衡量算法的优劣',
         {
           type: 'category',
           label: '线性表',
           link: {
             type: 'doc',
-            id: 'data-structures-and-algorithms/线性表/index',
+            id: '数据结构与算法/线性表/index',
           },
           items: [
-            'data-structures-and-algorithms/线性表/顺序表',
-            'data-structures-and-algorithms/线性表/链表',
-            'data-structures-and-algorithms/线性表/双向链表',
-            'data-structures-and-algorithms/线性表/循环链表',
+            '数据结构与算法/线性表/顺序表',
+            '数据结构与算法/线性表/链表',
+            '数据结构与算法/线性表/双向链表',
+            '数据结构与算法/线性表/循环链表',
           ],
         },
         {
@@ -142,12 +162,12 @@ const sidebars = {
           label: '栈',
           link: {
             type: 'doc',
-            id: 'data-structures-and-algorithms/栈/index',
+            id: '数据结构与算法/栈/index',
           },
           items: [
-            'data-structures-and-algorithms/栈/顺序栈',
-            'data-structures-and-algorithms/栈/链栈',
-            'data-structures-and-algorithms/栈/栈的应用',
+            '数据结构与算法/栈/顺序栈',
+            '数据结构与算法/栈/链栈',
+            '数据结构与算法/栈/栈的应用',
           ],
         },
         {
@@ -155,30 +175,30 @@ const sidebars = {
           label: '队列',
           link: {
             type: 'doc',
-            id: 'data-structures-and-algorithms/队列/index',
+            id: '数据结构与算法/队列/index',
           },
           items: [
-            'data-structures-and-algorithms/队列/顺序队列',
-            'data-structures-and-algorithms/队列/链队列',
-            'data-structures-and-algorithms/队列/双端队列',
-            'data-structures-and-algorithms/队列/队列的应用',
+            '数据结构与算法/队列/顺序队列',
+            '数据结构与算法/队列/链队列',
+            '数据结构与算法/队列/双端队列',
+            '数据结构与算法/队列/队列的应用',
           ],
         },
-        'data-structures-and-algorithms/串',
-        'data-structures-and-algorithms/集合',
-        'data-structures-and-algorithms/字典',
-        'data-structures-and-algorithms/哈希表',
-        'data-structures-and-algorithms/树',
-        'data-structures-and-algorithms/图',
-        'data-structures-and-algorithms/排序算法',
-        'data-structures-and-algorithms/搜索算法',
+        '数据结构与算法/串',
+        '数据结构与算法/集合',
+        '数据结构与算法/字典',
+        '数据结构与算法/哈希表',
+        '数据结构与算法/树',
+        '数据结构与算法/图',
+        '数据结构与算法/排序算法',
+        '数据结构与算法/搜索算法',
       ],
     },
     {
       type: 'category',
       label: '数据库',
       items: [
-        'database/index',
+        '数据库/index',
       ],
     },
     {
@@ -189,77 +209,77 @@ const sidebars = {
           type: 'category',
           label: 'JavaScript',
           items: [
-            'languages/javascript/overview',
+            '编程语言/javascript/index',
           ],
         },
         {
           type: 'category',
           label: 'TypeScript',
           items: [
-            'languages/typescript/overview',
+            '编程语言/typescript/index',
           ],
         },
         {
           type: 'category',
           label: 'Python',
           items: [
-            'languages/python/overview',
+            '编程语言/python/index',
           ],
         },
         {
           type: 'category',
           label: 'Java',
           items: [
-            'languages/java/overview',
+            '编程语言/java/index',
           ],
         },
         {
           type: 'category',
           label: 'Kotlin',
           items: [
-            'languages/kotlin/overview',
+            '编程语言/kotlin/index',
           ],
         },
         {
           type: 'category',
           label: 'C#',
           items: [
-            'languages/csharp/overview',
+            '编程语言/csharp/index',
           ],
         },
         {
           type: 'category',
           label: 'Go',
           items: [
-            'languages/go/overview',
+            '编程语言/go/index',
           ],
         },
         {
           type: 'category',
           label: 'Swift',
           items: [
-            'languages/swift/overview',
+            '编程语言/swift/index',
           ],
         },
         {
           type: 'category',
           label: 'C语言',
           items: [
-            'languages/c/overview',
+            '编程语言/c/index',
           ],
         },
         {
           type: 'category',
           label: 'C++',
           items: [
-            'languages/c++/overview',
+            '编程语言/c++/index',
           ],
         },
         {
           type: 'category',
           label: 'Rust',
           items: [
-            'languages/rust/overview',
+            '编程语言/rust/index',
           ],
         },
       ],
@@ -268,14 +288,14 @@ const sidebars = {
       type: 'category',
       label: '设计模式',
       items: [
-        'design-patterns/index',
+        '设计模式/index',
       ],
     },
     {
       type: 'category',
       label: '软件工程',
       items: [
-        'software-engineering/index',
+        '软件工程/index',
       ],
     },
   ],
@@ -284,7 +304,7 @@ const sidebars = {
       type: 'category',
       label: '竞品分析',
       items: [
-        'product/竞品分析/index',
+        '产品/竞品分析/index',
       ],
     }
   ]

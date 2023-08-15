@@ -70,21 +70,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'data-structures-and-algorithms',
+            sidebarId: 'programming',
             position: 'left',
-            label: '数据结构与算法',
+            label: '编程',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'design-patterns',
+            sidebarId: 'product',
             position: 'left',
-            label: '设计模式',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'languages',
-            position: 'left',
-            label: '编程语言',
+            label: '产品',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

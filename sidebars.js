@@ -20,137 +20,176 @@ const sidebars = {
   start: [
     'start',
   ],
-  'data-structures-and-algorithms': [
-    'data-structures-and-algorithms/序/index',
+  programming: [
+    'programming/overview',
     {
       type: 'category',
-      label: '线性表',
-      link: {
-        type: 'doc',
-        id: 'data-structures-and-algorithms/线性表/index',
-      },
+      label: '计算机系统',
       items: [
-        'data-structures-and-algorithms/线性表/顺序表',
-        'data-structures-and-algorithms/线性表/链表',
-        'data-structures-and-algorithms/线性表/双向链表',
-        'data-structures-and-algorithms/线性表/循环链表',
+        'cs/index',
       ],
     },
     {
       type: 'category',
-      label: '栈',
-      link: {
-        type: 'doc',
-        id: 'data-structures-and-algorithms/栈/index',
-      },
+      label: '编程语言',
       items: [
-        'data-structures-and-algorithms/栈/顺序栈',
-        'data-structures-and-algorithms/栈/链栈',
-        'data-structures-and-algorithms/栈/栈的应用',
+        {
+          type: 'category',
+          label: 'JavaScript',
+          items: [
+            'languages/javascript/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'TypeScript',
+          items: [
+            'languages/typescript/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Python',
+          items: [
+            'languages/python/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Java',
+          items: [
+            'languages/java/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Kotlin',
+          items: [
+            'languages/kotlin/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'C#',
+          items: [
+            'languages/csharp/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Go',
+          items: [
+            'languages/go/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Swift',
+          items: [
+            'languages/swift/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'C语言',
+          items: [
+            'languages/c/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'C++',
+          items: [
+            'languages/c++/overview',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Rust',
+          items: [
+            'languages/rust/overview',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: '队列',
-      link: {
-        type: 'doc',
-        id: 'data-structures-and-algorithms/队列/index',
-      },
+      label: '数据结构与算法',
       items: [
-        'data-structures-and-algorithms/队列/顺序队列',
-        'data-structures-and-algorithms/队列/链队列',
-        'data-structures-and-algorithms/队列/双端队列',
-        'data-structures-and-algorithms/队列/队列的应用',
+        'data-structures-and-algorithms/index',
+        {
+          type: 'category',
+          label: '线性表',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/线性表/index',
+          },
+          items: [
+            'data-structures-and-algorithms/线性表/顺序表',
+            'data-structures-and-algorithms/线性表/链表',
+            'data-structures-and-algorithms/线性表/双向链表',
+            'data-structures-and-algorithms/线性表/循环链表',
+          ],
+        },
+        {
+          type: 'category',
+          label: '栈',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/栈/index',
+          },
+          items: [
+            'data-structures-and-algorithms/栈/顺序栈',
+            'data-structures-and-algorithms/栈/链栈',
+            'data-structures-and-algorithms/栈/栈的应用',
+          ],
+        },
+        {
+          type: 'category',
+          label: '队列',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/队列/index',
+          },
+          items: [
+            'data-structures-and-algorithms/队列/顺序队列',
+            'data-structures-and-algorithms/队列/链队列',
+            'data-structures-and-algorithms/队列/双端队列',
+            'data-structures-and-algorithms/队列/队列的应用',
+          ],
+        },
+        'data-structures-and-algorithms/串',
+        'data-structures-and-algorithms/集合',
+        'data-structures-and-algorithms/字典',
+        'data-structures-and-algorithms/哈希表',
+        'data-structures-and-algorithms/树',
+        'data-structures-and-algorithms/图',
+        'data-structures-and-algorithms/排序算法',
+        'data-structures-and-algorithms/搜索算法',
       ],
     },
-    'data-structures-and-algorithms/串',
-    'data-structures-and-algorithms/集合',
-    'data-structures-and-algorithms/字典',
-    'data-structures-and-algorithms/哈希表',
-    'data-structures-and-algorithms/树',
-    'data-structures-and-algorithms/图',
-    'data-structures-and-algorithms/排序算法',
-    'data-structures-and-algorithms/搜索算法',
+    {
+      type: 'category',
+      label: '设计模式',
+      items: [
+        'design-patterns/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '软件工程',
+      items: [
+        'software-engineering/index',
+      ],
+    },
   ],
-  'design-patterns': [
-    'design-patterns/overview',
-  ],
-  languages: [
+  product: [
+    'product/index',
     {
       type: 'category',
-      label: 'JavaScript',
+      label: '竞品分析',
       items: [
-        'javascript/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'TypeScript',
-      items: [
-        'typescript/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Python',
-      items: [
-        'python/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Java',
-      items: [
-        'java/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Kotlin',
-      items: [
-        'kotlin/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'C#',
-      items: [
-        'csharp/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Go',
-      items: [
-        'go/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Swift',
-      items: [
-        'swift/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'C语言',
-      items: [
-        'c/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'C++',
-      items: [
-        'c++/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Rust',
-      items: [
-        'rust/overview',
+        'product/竞品分析/index',
       ],
     },
   ],

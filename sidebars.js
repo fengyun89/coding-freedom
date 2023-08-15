@@ -21,12 +21,74 @@ const sidebars = {
     'start',
   ],
   programming: [
-    'programming/overview',
     {
       type: 'category',
-      label: '计算机系统',
+      label: '逻辑学',
       items: [
-        'cs/index',
+        'logic/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '集合论',
+      items: [
+        'set-theory/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '数理逻辑',
+      items: [
+        'mathematical-logic/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '数字电路',
+      items: [
+        'digital-circuit/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '计算机体系结构',
+      items: [
+        'computer-architecture/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '计算机组成',
+      items: [
+        'computer-organization/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '操作系统',
+      items: [
+        'operating-system/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '计算机网络',
+      items: [
+        'computer-network/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '编译原理',
+      items: [
+        'compiler-principles/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '数据库',
+      items: [
+        'database/index',
       ],
     },
     {
@@ -182,6 +244,7 @@ const sidebars = {
         'software-engineering/index',
       ],
     },
+
   ],
   product: [
     'product/index',

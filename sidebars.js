@@ -30,16 +30,50 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '集合论',
+      label: '数学',
       items: [
-        'set-theory/index',
-      ],
-    },
-    {
-      type: 'category',
-      label: '数理逻辑',
-      items: [
-        'mathematical-logic/index',
+        {
+          type: 'category',
+          label: '集合论',
+          items: [
+            'mathematics/set-theory/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '数理逻辑',
+          items: [
+            'mathematics/mathematical-logic/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '图论',
+          items: [
+            'mathematics/graph-theory/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '线性代数',
+          items: [
+            'mathematics/linear-algebra/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '概率论',
+          items: [
+            'mathematics/probability-theory/index',
+          ],
+        },
+        {
+          type: 'category',
+          label: '离散数学',
+          items: [
+            'mathematics/discrete-mathematics/index',
+          ],
+        },
       ],
     },
     {
@@ -82,6 +116,62 @@ const sidebars = {
       label: '编译原理',
       items: [
         'compiler-principles/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: '数据结构与算法',
+      items: [
+        'data-structures-and-algorithms/index',
+        {
+          type: 'category',
+          label: '线性表',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/线性表/index',
+          },
+          items: [
+            'data-structures-and-algorithms/线性表/顺序表',
+            'data-structures-and-algorithms/线性表/链表',
+            'data-structures-and-algorithms/线性表/双向链表',
+            'data-structures-and-algorithms/线性表/循环链表',
+          ],
+        },
+        {
+          type: 'category',
+          label: '栈',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/栈/index',
+          },
+          items: [
+            'data-structures-and-algorithms/栈/顺序栈',
+            'data-structures-and-algorithms/栈/链栈',
+            'data-structures-and-algorithms/栈/栈的应用',
+          ],
+        },
+        {
+          type: 'category',
+          label: '队列',
+          link: {
+            type: 'doc',
+            id: 'data-structures-and-algorithms/队列/index',
+          },
+          items: [
+            'data-structures-and-algorithms/队列/顺序队列',
+            'data-structures-and-algorithms/队列/链队列',
+            'data-structures-and-algorithms/队列/双端队列',
+            'data-structures-and-algorithms/队列/队列的应用',
+          ],
+        },
+        'data-structures-and-algorithms/串',
+        'data-structures-and-algorithms/集合',
+        'data-structures-and-algorithms/字典',
+        'data-structures-and-algorithms/哈希表',
+        'data-structures-and-algorithms/树',
+        'data-structures-and-algorithms/图',
+        'data-structures-and-algorithms/排序算法',
+        'data-structures-and-algorithms/搜索算法',
       ],
     },
     {
@@ -172,62 +262,6 @@ const sidebars = {
             'languages/rust/overview',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: '数据结构与算法',
-      items: [
-        'data-structures-and-algorithms/index',
-        {
-          type: 'category',
-          label: '线性表',
-          link: {
-            type: 'doc',
-            id: 'data-structures-and-algorithms/线性表/index',
-          },
-          items: [
-            'data-structures-and-algorithms/线性表/顺序表',
-            'data-structures-and-algorithms/线性表/链表',
-            'data-structures-and-algorithms/线性表/双向链表',
-            'data-structures-and-algorithms/线性表/循环链表',
-          ],
-        },
-        {
-          type: 'category',
-          label: '栈',
-          link: {
-            type: 'doc',
-            id: 'data-structures-and-algorithms/栈/index',
-          },
-          items: [
-            'data-structures-and-algorithms/栈/顺序栈',
-            'data-structures-and-algorithms/栈/链栈',
-            'data-structures-and-algorithms/栈/栈的应用',
-          ],
-        },
-        {
-          type: 'category',
-          label: '队列',
-          link: {
-            type: 'doc',
-            id: 'data-structures-and-algorithms/队列/index',
-          },
-          items: [
-            'data-structures-and-algorithms/队列/顺序队列',
-            'data-structures-and-algorithms/队列/链队列',
-            'data-structures-and-algorithms/队列/双端队列',
-            'data-structures-and-algorithms/队列/队列的应用',
-          ],
-        },
-        'data-structures-and-algorithms/串',
-        'data-structures-and-algorithms/集合',
-        'data-structures-and-algorithms/字典',
-        'data-structures-and-algorithms/哈希表',
-        'data-structures-and-algorithms/树',
-        'data-structures-and-algorithms/图',
-        'data-structures-and-algorithms/排序算法',
-        'data-structures-and-algorithms/搜索算法',
       ],
     },
     {

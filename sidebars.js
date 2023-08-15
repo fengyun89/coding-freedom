@@ -244,15 +244,17 @@ const sidebars = {
         'software-engineering/index',
       ],
     },
-
-  ],
-  product: [
-    'product/index',
     {
       type: 'category',
-      label: '竞品分析',
+      label: '产品',
       items: [
-        'product/竞品分析/index',
+        {
+          type: 'category',
+          label: '竞品分析',
+          items: [
+            'product/竞品分析/index',
+          ],
+        }
       ],
     },
   ],

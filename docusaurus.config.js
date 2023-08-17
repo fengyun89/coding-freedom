@@ -64,21 +64,45 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'start',
+            sidebarId: '0',
             position: 'left',
-            label: '开始',
+            label: '零',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'programming',
+            sidebarId: '1',
             position: 'left',
-            label: '编程',
+            label: '一',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'product',
+            sidebarId: '2',
             position: 'left',
-            label: '产品',
+            label: '二',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: '3',
+            position: 'left',
+            label: '三',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: '4',
+            position: 'left',
+            label: '四',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: '5',
+            position: 'left',
+            label: '五',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: '6',
+            position: 'left',
+            label: '六',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

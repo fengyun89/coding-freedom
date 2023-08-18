@@ -64,45 +64,33 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: '0',
+            sidebarId: '零',
             position: 'left',
             label: '零',
           },
           {
             type: 'docSidebar',
-            sidebarId: '1',
+            sidebarId: '一',
             position: 'left',
             label: '一',
           },
           {
             type: 'docSidebar',
-            sidebarId: '2',
+            sidebarId: '二',
             position: 'left',
             label: '二',
           },
           {
             type: 'docSidebar',
-            sidebarId: '3',
+            sidebarId: '三',
             position: 'left',
             label: '三',
           },
           {
             type: 'docSidebar',
-            sidebarId: '4',
+            sidebarId: '四',
             position: 'left',
             label: '四',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: '5',
-            position: 'left',
-            label: '五',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: '6',
-            position: 'left',
-            label: '六',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {

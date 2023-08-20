@@ -23,23 +23,9 @@ const sidebars = {
   一: [
     {
       type: 'category',
-      label: '逻辑学',
+      label: '形式逻辑',
       items: [
-        '逻辑学/index',
-        {
-          type: 'category',
-          label: '形式逻辑',
-          items: [
-            '逻辑学/形式逻辑/index',
-          ],
-        },
-        {
-          type: 'category',
-          label: '辩证逻辑',
-          items: [
-            '逻辑学/辩证逻辑/index',
-          ],
-        },
+        '形式逻辑/什么是逻辑',
       ],
     },
     {

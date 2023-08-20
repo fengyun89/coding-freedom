@@ -339,7 +339,7 @@ const sidebars = {
           type: 'category',
           label: 'JavaScript',
           items: [
-            '编程语言/javascript/index',
+            '编程语言/javascript/模板字符串',
           ],
         },
         {

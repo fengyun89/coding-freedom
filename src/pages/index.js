@@ -30,7 +30,7 @@ export default function Home() {
     <Layout
       title={`${siteConfig.title}`}
       description={`${siteConfig.title}`}>
-      <HomepageHeader />
+      {/*<HomepageHeader />*/}
       <main>
         <HomepageFeatures />
       </main>

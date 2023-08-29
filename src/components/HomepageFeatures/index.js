@@ -24,9 +24,9 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={styles.feature}>
-      <div className="text--center padding-horiz--md">
-        <h1>{title}</h1>
-      </div>
+      {/*<div className="text--center padding-horiz--md">*/}
+      {/*  <h1>{title}</h1>*/}
+      {/*</div>*/}
       {
         Svg ? (
           <div className="text--center">
@@ -40,7 +40,7 @@ function Feature({Svg, title, description}) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
+    <section>
       {FeatureList.map((props, idx) => (
         <Feature key={idx} {...props} />
       ))}

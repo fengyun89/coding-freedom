@@ -82,9 +82,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'C/C++',
+            sidebarId: 'C',
             position: 'left',
-            label: 'C/C++',
+            label: 'C语言',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'C++',
+            position: 'left',
+            label: 'C++',
           },
           {
             type: 'docSidebar',

@@ -12,6 +12,6 @@
 
 ## 预定义常量
 
-* false 
-* true 
+* false
+* true
 * nullptr

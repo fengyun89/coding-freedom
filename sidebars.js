@@ -127,7 +127,7 @@ const sidebars = {
       type: 'category',
       label: 'Notes',
       items: [
-        'C/notes/程序入口',
+        'C/notes/注释',
       ],
     },
   ],

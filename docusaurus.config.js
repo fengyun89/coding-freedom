@@ -39,6 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          breadcrumbs: false,
         },
         blog: {
           showReadingTime: true,
@@ -55,6 +56,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
         title: '探索独立开发',
         logo: {
@@ -68,43 +74,6 @@ const config = {
             position: 'left',
             label: '开始',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: '数学',
-            position: 'left',
-            label: '数学',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: '计算机系统',
-            position: 'left',
-            label: '计算机系统',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'C',
-            position: 'left',
-            label: 'C语言',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'C++',
-            position: 'left',
-            label: 'C++',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: '数据结构与算法',
-            position: 'left',
-            label: '数据结构与算法',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: '编译原理',
-            position: 'left',
-            label: '编译原理',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/coding-freedom',
             label: 'GitHub',
@@ -124,12 +93,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        appId: '6S7UDU3OUL',
-        apiKey: '3e59ad2a0c33cddf95cbf3dfc9a3d79d',
-        indexName: 'coding_freedom',
-        contextualSearch: true,
       },
     }),
 };

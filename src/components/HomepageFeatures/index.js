@@ -3,18 +3,21 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 
 const FeatureList = [
-  {
-    title: '毫无疑问，这是一场冒险',
-  },
-  {
-    title: '但，你是',
-  },
-  {
-    title: '继续选择苟活到死？',
-  },
-  {
-    title: '还是',
-  },
+  // {
+  //   title: '探索独立开发',
+  // },
+  // {
+  //   title: '毫无疑问，这是一场冒险',
+  // },
+  // {
+  //   title: '但，你是',
+  // },
+  // {
+  //   title: '继续选择苟活到死？',
+  // },
+  // {
+  //   title: '还是',
+  // },
   {
     title: '紧紧抓住时代赋予程序员的机遇，奋力一搏？',
     Svg: require('@site/static/img/hero.jpg').default,
@@ -29,7 +32,7 @@ function Feature({Svg, title, description}) {
       {/*</div>*/}
       {
         Svg ? (
-          <div className="text--center">
+          <div className="text--center" style={{fontSize: '0'}}>
             <img className={styles.featureImg} src={Svg} role="img" />
           </div>
         ) : null

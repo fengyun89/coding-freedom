@@ -18,7 +18,11 @@ const sidebars = {
 
   // But you can create a sidebar manually
   开始: [
-    'C语言',
+    {
+      type: 'doc',
+      label: 'C语言',
+      id: 'c'
+    }
   ],
 };
 

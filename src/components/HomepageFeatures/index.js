@@ -32,9 +32,7 @@ function Feature({Svg, title, description}) {
       {/*</div>*/}
       {
         Svg ? (
-          <div className="text--center" style={{fontSize: '0'}}>
-            <img className={styles.featureImg} src={Svg} role="img" />
-          </div>
+          <div className={styles.homeImgWrapper}></div>
         ) : null
       }
     </div>

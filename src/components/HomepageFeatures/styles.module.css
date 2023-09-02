@@ -10,8 +10,10 @@
   margin-bottom: 2.8rem;
 }
 
-.featureImg {
-  max-width: 1200px;
+.homeImgWrapper {
+  height: calc(100vh - 60px - 80px);
+  background: url('/static/img/hero.jpg') no-repeat center;
+  background-size: auto 100%;
 }
 
 @media screen and (max-width: 996px) {

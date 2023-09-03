@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '探索独立开发',
+  title: '程序员的圆',
   tagline: '用程序员自己的方式',
   favicon: '/img/logo.png',
 
@@ -62,9 +62,9 @@ const config = {
         },
       },
       navbar: {
-        title: '探索独立开发',
+        title: '程序员的圆',
         logo: {
-          alt: '探索独立开发',
+          alt: '程序员的圆',
           src: '/img/logo.png',
         },
         items: [

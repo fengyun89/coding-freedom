@@ -20,8 +20,8 @@ const sidebars = {
   开始: [
     {
       type: 'doc',
-      label: 'C语言',
-      id: 'c'
+      label: 'C/C++',
+      id: 'cpp'
     }
   ],
 };

@@ -70,9 +70,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: '开始',
+            sidebarId: 'programming',
             position: 'left',
-            label: '开始',
+            label: '编程',
           },
           {
             href: 'https://github.com/coding-freedom',

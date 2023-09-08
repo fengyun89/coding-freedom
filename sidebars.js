@@ -45,8 +45,8 @@ const sidebars = {
     },
     {
       type: 'doc',
-      label: '编译原理',
-      id: 'compilation'
+      label: '编译器',
+      id: 'compiler'
     },
     {
       type: 'doc',

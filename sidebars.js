@@ -20,9 +20,39 @@ const sidebars = {
   开始: [
     {
       type: 'doc',
-      label: 'C/C++',
+      label: '计算机系统',
+      id: 'cs'
+    },
+    {
+      type: 'doc',
+      label: 'C',
+      id: 'c'
+    },
+    {
+      type: 'doc',
+      label: '数据结构与算法',
+      id: 'data-structures'
+    },
+    {
+      type: 'doc',
+      label: 'C++',
       id: 'cpp'
-    }
+    },
+    {
+      type: 'doc',
+      label: '设计模式',
+      id: 'design-patterns'
+    },
+    {
+      type: 'doc',
+      label: '编译原理',
+      id: 'compilation'
+    },
+    {
+      type: 'doc',
+      label: '数据库',
+      id: 'database'
+    },
   ],
 };
 

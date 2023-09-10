@@ -21,7 +21,7 @@ const sidebars = {
     {
       type: 'doc',
       label: '编程',
-      id: 'cs'
+      id: 'programming'
     },
   ],
 };

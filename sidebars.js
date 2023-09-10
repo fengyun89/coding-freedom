@@ -20,7 +20,7 @@ const sidebars = {
   programming: [
     {
       type: 'doc',
-      label: '计算机系统',
+      label: '计算机科学',
       id: 'cs'
     },
     {

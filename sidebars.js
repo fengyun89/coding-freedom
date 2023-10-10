@@ -92,13 +92,6 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: '预处理指令',
-              items: [
-                '语言/C语言/预处理指令/index',
-              ],
-            },
-            {
-              type: 'category',
               label: '词法规则',
               items: [
                 '语言/C语言/词法规则/空白',
@@ -132,6 +125,13 @@ const sidebars = {
                 '语言/C语言/语义规则/作用域',
                 '语言/C语言/语义规则/对象的存储期',
                 '语言/C语言/语义规则/对齐',
+              ],
+            },
+            {
+              type: 'category',
+              label: '预处理指令',
+              items: [
+                '语言/C语言/预处理指令/index',
               ],
             },
             {

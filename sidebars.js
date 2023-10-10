@@ -25,47 +25,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '程序',
+      label: '编程语言',
       link: {
         type: 'doc',
-        id: '程序/index',
-      },
-      items: [
-        {
-          type: 'category',
-          label: '操作系统',
-          link: {
-            type: 'doc',
-            id: '程序/操作系统/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '编译器',
-          link: {
-            type: 'doc',
-            id: '程序/编译器/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '数据库系统',
-          link: {
-            type: 'doc',
-            id: '程序/数据库系统/index',
-          },
-          items: [],
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: '语言',
-      link: {
-        type: 'doc',
-        id: '语言/index',
+        id: '编程语言/index',
       },
       items: [
         {
@@ -73,7 +36,7 @@ const sidebars = {
           label: '机器语言',
           link: {
             type: 'doc',
-            id: '语言/机器语言/index',
+            id: '编程语言/机器语言/index',
           },
           items: [],
         },
@@ -82,7 +45,7 @@ const sidebars = {
           label: '汇编语言',
           link: {
             type: 'doc',
-            id: '语言/汇编语言/index',
+            id: '编程语言/汇编语言/index',
           },
           items: [],
         },
@@ -94,51 +57,51 @@ const sidebars = {
               type: 'category',
               label: '词法规则',
               items: [
-                '语言/C语言/词法规则/空白',
-                '语言/C语言/词法规则/注释',
-                '语言/C语言/词法规则/关键字',
-                '语言/C语言/词法规则/标识符',
-                '语言/C语言/词法规则/常量',
-                '语言/C语言/词法规则/字符串字面量',
-                '语言/C语言/词法规则/标点符号',
-                '语言/C语言/词法规则/头文件名',
-                '语言/C语言/词法规则/预处理数字',
-                '语言/C语言/词法规则/通用字符名',
+                '编程语言/C语言/词法规则/空白',
+                '编程语言/C语言/词法规则/注释',
+                '编程语言/C语言/词法规则/关键字',
+                '编程语言/C语言/词法规则/标识符',
+                '编程语言/C语言/词法规则/常量',
+                '编程语言/C语言/词法规则/字符串字面量',
+                '编程语言/C语言/词法规则/标点符号',
+                '编程语言/C语言/词法规则/头文件名',
+                '编程语言/C语言/词法规则/预处理数字',
+                '编程语言/C语言/词法规则/通用字符名',
               ],
             },
             {
               type: 'category',
               label: '语法规则',
               items: [
-                '语言/C语言/语法规则/表达式',
-                '语言/C语言/语法规则/声明',
-                '语言/C语言/语法规则/语句',
-                '语言/C语言/语法规则/外部定义',
+                '编程语言/C语言/语法规则/表达式',
+                '编程语言/C语言/语法规则/声明',
+                '编程语言/C语言/语法规则/语句',
+                '编程语言/C语言/语法规则/外部定义',
               ],
             },
             {
               type: 'category',
               label: '语义规则',
               items: [
-                '语言/C语言/语义规则/类型',
-                '语言/C语言/语义规则/main函数',
-                '语言/C语言/语义规则/作用域',
-                '语言/C语言/语义规则/对象的存储期',
-                '语言/C语言/语义规则/对齐',
+                '编程语言/C语言/语义规则/类型',
+                '编程语言/C语言/语义规则/main函数',
+                '编程语言/C语言/语义规则/作用域',
+                '编程语言/C语言/语义规则/对象的存储期',
+                '编程语言/C语言/语义规则/对齐',
               ],
             },
             {
               type: 'category',
               label: '预处理指令',
               items: [
-                '语言/C语言/预处理指令/index',
+                '编程语言/C语言/预处理指令/index',
               ],
             },
             {
               type: 'category',
               label: '标准库',
               items: [
-                '语言/C语言/标准库/index',
+                '编程语言/C语言/标准库/index',
               ],
             },
           ],
@@ -148,7 +111,7 @@ const sidebars = {
           label: 'C++',
           link: {
             type: 'doc',
-            id: '语言/C++/index',
+            id: '编程语言/C++/index',
           },
           items: [],
         },
@@ -157,7 +120,7 @@ const sidebars = {
           label: 'Java',
           link: {
             type: 'doc',
-            id: '语言/Java/index',
+            id: '编程语言/Java/index',
           },
           items: [],
         },
@@ -166,7 +129,7 @@ const sidebars = {
           label: 'JavaScript',
           link: {
             type: 'doc',
-            id: '语言/JavaScript/index',
+            id: '编程语言/JavaScript/index',
           },
           items: [],
         },
@@ -175,7 +138,7 @@ const sidebars = {
           label: 'DSL',
           link: {
             type: 'doc',
-            id: '语言/DSL/index',
+            id: '编程语言/DSL/index',
           },
           items: [],
         },
@@ -183,10 +146,10 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '设计',
+      label: '程序设计',
       link: {
         type: 'doc',
-        id: '设计/index',
+        id: '程序设计/index',
       },
       items: [
         {
@@ -194,7 +157,7 @@ const sidebars = {
           label: '架构设计',
           link: {
             type: 'doc',
-            id: '设计/架构设计/index',
+            id: '程序设计/架构设计/index',
           },
           items: [],
         },
@@ -203,7 +166,7 @@ const sidebars = {
           label: '系统设计',
           link: {
             type: 'doc',
-            id: '设计/系统设计/index',
+            id: '程序设计/系统设计/index',
           },
           items: [],
         },
@@ -212,7 +175,7 @@ const sidebars = {
           label: '设计模式',
           link: {
             type: 'doc',
-            id: '设计/设计模式/index',
+            id: '程序设计/设计模式/index',
           },
           items: [],
         },
@@ -221,7 +184,7 @@ const sidebars = {
           label: '算法设计',
           link: {
             type: 'doc',
-            id: '设计/算法设计/index',
+            id: '程序设计/算法设计/index',
           },
           items: [],
         },
@@ -230,7 +193,7 @@ const sidebars = {
           label: 'UML',
           link: {
             type: 'doc',
-            id: '设计/UML/index',
+            id: '程序设计/UML/index',
           },
           items: [],
         },
@@ -238,61 +201,50 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '工程',
+      label: '软件工程',
       link: {
         type: 'doc',
-        id: '工程/index',
+        id: '软件工程/index',
       },
       items: [
-        {
-          type: 'category',
-          label: '软件工程',
-          link: {
-            type: 'doc',
-            id: '工程/软件工程/index',
-          },
-          items: [
-            '工程/软件工程/业务调研',
-            '工程/软件工程/业务设计',
-            '工程/软件工程/系统设计',
-          ],
-        },
+        '软件工程/业务调研',
+        '软件工程/业务设计',
+        '软件工程/系统设计',
       ],
     },
     {
       type: 'category',
       label: '计算机系统',
-      link: {
-        type: 'doc',
-        id: '计算机系统/index',
-      },
       items: [
         {
-          type: 'category',
+          type: 'doc',
           label: '数字电路',
-          link: {
-            type: 'doc',
-            id: '计算机系统/数字电路/index',
-          },
-          items: [],
+          id: '计算机系统/数字电路',
         },
         {
-          type: 'category',
-          label: '组成原理',
-          link: {
-            type: 'doc',
-            id: '计算机系统/组成原理/index',
-          },
-          items: [],
+          type: 'doc',
+          label: '计算机组成原理',
+          id: '计算机系统/计算机组成原理',
         },
         {
-          type: 'category',
+          type: 'doc',
+          label: '操作系统',
+          id: '计算机系统/操作系统',
+        },
+        {
+          type: 'doc',
           label: '计算机网络',
-          link: {
-            type: 'doc',
-            id: '计算机系统/计算机网络/index',
-          },
-          items: [],
+          id: '计算机系统/计算机网络',
+        },
+        {
+          type: 'doc',
+          label: '编译原理',
+          id: '计算机系统/编译原理',
+        },
+        {
+          type: 'doc',
+          label: '数据库系统',
+          id: '计算机系统/数据库系统',
         },
       ],
     },

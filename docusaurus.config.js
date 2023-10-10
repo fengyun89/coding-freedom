@@ -39,7 +39,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          breadcrumbs: false,
+          breadcrumbs: true,
         },
         blog: {
           showReadingTime: true,

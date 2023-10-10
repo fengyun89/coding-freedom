@@ -24,151 +24,23 @@ const sidebars = {
       items: [
         '编程语言/机器语言',
         '编程语言/汇编语言',
-        {
-          type: 'category',
-          label: 'C语言',
-          items: [
-            {
-              type: 'category',
-              label: '词法规则',
-              items: [
-                '编程语言/C语言/词法规则/空白',
-                '编程语言/C语言/词法规则/注释',
-                '编程语言/C语言/词法规则/关键字',
-                '编程语言/C语言/词法规则/标识符',
-                '编程语言/C语言/词法规则/常量',
-                '编程语言/C语言/词法规则/字符串字面量',
-                '编程语言/C语言/词法规则/标点符号',
-                '编程语言/C语言/词法规则/头文件名',
-                '编程语言/C语言/词法规则/预处理数字',
-                '编程语言/C语言/词法规则/通用字符名',
-              ],
-            },
-            {
-              type: 'category',
-              label: '语法规则',
-              items: [
-                '编程语言/C语言/语法规则/表达式',
-                '编程语言/C语言/语法规则/声明',
-                '编程语言/C语言/语法规则/语句',
-                '编程语言/C语言/语法规则/外部定义',
-              ],
-            },
-            {
-              type: 'category',
-              label: '语义规则',
-              items: [
-                '编程语言/C语言/语义规则/类型',
-                '编程语言/C语言/语义规则/main函数',
-                '编程语言/C语言/语义规则/作用域',
-                '编程语言/C语言/语义规则/对象的存储期',
-                '编程语言/C语言/语义规则/对齐',
-              ],
-            },
-            {
-              type: 'category',
-              label: '预处理指令',
-              items: [
-                '编程语言/C语言/预处理指令/index',
-              ],
-            },
-            {
-              type: 'category',
-              label: '标准库',
-              items: [
-                '编程语言/C语言/标准库/index',
-              ],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'C++',
-          items: [
-            '编程语言/C++/index'
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Java',
-          items: [
-            '编程语言/Java/index',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'JavaScript',
-          items: [
-            '编程语言/JavaScript/index',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'TypeScript',
-          items: [
-            '编程语言/TypeScript/index',
-          ],
-        },
+        '编程语言/C语言',
+        '编程语言/C++',
+        '编程语言/Java',
+        '编程语言/JavaScript',
+        '编程语言/TypeScript',
       ],
     },
     {
       type: 'category',
       label: '程序设计',
       items: [
-        {
-          type: 'category',
-          label: '架构设计',
-          link: {
-            type: 'doc',
-            id: '程序设计/架构设计/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '系统设计',
-          link: {
-            type: 'doc',
-            id: '程序设计/系统设计/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '设计模式',
-          link: {
-            type: 'doc',
-            id: '程序设计/设计模式/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '算法设计',
-          link: {
-            type: 'doc',
-            id: '程序设计/算法设计/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: 'UML',
-          link: {
-            type: 'doc',
-            id: '程序设计/UML/index',
-          },
-          items: [],
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: '软件工程',
-      items: [
-        '软件工程/业务调研',
-        '软件工程/业务设计',
-        '软件工程/系统设计',
+        '程序设计/软件工程',
+        '程序设计/架构设计',
+        '程序设计/系统设计',
+        '程序设计/设计模式',
+        '程序设计/算法设计',
+        '程序设计/UML',
       ],
     },
     {

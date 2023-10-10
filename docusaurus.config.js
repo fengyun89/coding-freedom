@@ -58,7 +58,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
         },
       },
       navbar: {
@@ -85,10 +85,6 @@ const config = {
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} 程序员的圆`,
       },
       prism: {
         theme: lightCodeTheme,

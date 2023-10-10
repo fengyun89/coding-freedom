@@ -20,8 +20,264 @@ const sidebars = {
   programming: [
     {
       type: 'doc',
-      label: '编程',
-      id: 'programming'
+      label: '概览',
+      id: 'index'
+    },
+    {
+      type: 'category',
+      label: '程序',
+      link: {
+        type: 'doc',
+        id: '程序/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '操作系统',
+          link: {
+            type: 'doc',
+            id: '程序/操作系统/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '编译器',
+          link: {
+            type: 'doc',
+            id: '程序/编译器/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '数据库系统',
+          link: {
+            type: 'doc',
+            id: '程序/数据库系统/index',
+          },
+          items: [],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: '语言',
+      link: {
+        type: 'doc',
+        id: '语言/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '机器语言',
+          link: {
+            type: 'doc',
+            id: '语言/机器语言/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '汇编语言',
+          link: {
+            type: 'doc',
+            id: '语言/汇编语言/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'C语言',
+          link: {
+            type: 'doc',
+            id: '语言/C语言/index',
+          },
+          items: [
+            '语言/C语言/环境',
+            '语言/C语言/词法',
+            '语言/C语言/注释',
+            '语言/C语言/类型',
+            '语言/C语言/表达式',
+            '语言/C语言/常量表达式',
+            '语言/C语言/声明',
+            '语言/C语言/语句',
+            '语言/C语言/外部定义',
+            '语言/C语言/预处理指令',
+            '语言/C语言/标准库',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'C++',
+          link: {
+            type: 'doc',
+            id: '语言/C++/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'Java',
+          link: {
+            type: 'doc',
+            id: '语言/Java/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'JavaScript',
+          link: {
+            type: 'doc',
+            id: '语言/JavaScript/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'DSL',
+          link: {
+            type: 'doc',
+            id: '语言/DSL/index',
+          },
+          items: [],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: '设计',
+      link: {
+        type: 'doc',
+        id: '设计/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '架构设计',
+          link: {
+            type: 'doc',
+            id: '设计/架构设计/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '系统设计',
+          link: {
+            type: 'doc',
+            id: '设计/系统设计/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '设计模式',
+          link: {
+            type: 'doc',
+            id: '设计/设计模式/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '算法设计',
+          link: {
+            type: 'doc',
+            id: '设计/算法设计/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: 'UML',
+          link: {
+            type: 'doc',
+            id: '设计/UML/index',
+          },
+          items: [],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: '工程',
+      link: {
+        type: 'doc',
+        id: '工程/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '软件工程',
+          link: {
+            type: 'doc',
+            id: '工程/软件工程/index',
+          },
+          items: [
+            '工程/软件工程/业务调研',
+            '工程/软件工程/业务设计',
+            '工程/软件工程/系统设计',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: '计算机系统',
+      link: {
+        type: 'doc',
+        id: '计算机系统/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '数字电路',
+          link: {
+            type: 'doc',
+            id: '计算机系统/数字电路/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '组成原理',
+          link: {
+            type: 'doc',
+            id: '计算机系统/组成原理/index',
+          },
+          items: [],
+        },
+        {
+          type: 'category',
+          label: '计算机网络',
+          link: {
+            type: 'doc',
+            id: '计算机系统/计算机网络/index',
+          },
+          items: [],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: '计算机数学',
+      link: {
+        type: 'doc',
+        id: '计算机数学/index',
+      },
+      items: [
+        {
+          type: 'category',
+          label: '逻辑代数',
+          link: {
+            type: 'doc',
+            id: '计算机数学/逻辑代数/index',
+          },
+          items: [],
+        },
+      ],
     },
   ],
 };

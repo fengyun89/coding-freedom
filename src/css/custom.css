@@ -43,31 +43,3 @@
   background-color: initial;
   color: initial;
 }
-
-main[class^="docMainContainer_"] > .container {
-  padding: 0 !important;
-  max-width: initial !important;
-}
-
-main[class^="docMainContainer_"] > .container > .row,
-main[class^="docMainContainer_"] > .container > .row > .col,
-main[class^="docMainContainer_"] > .container > .row > .col > [class^="docItemContainer_"],
-main[class^="docMainContainer_"] > .container > .row > .col > [class^="docItemContainer_"] > article,
-main[class^="docMainContainer_"] > .container > .row > .col > [class^="docItemContainer_"] > article > .theme-doc-markdown {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-main[class^="docMainContainer_"] > .container > .row > .col > [class^="docItemContainer_"] > article > .theme-doc-markdown iframe {
-  width: 100%;
-  height: 100%;
-}
-
-.theme-doc-sidebar-container {
-  display: none !important;
-}
-
-.theme-doc-sidebar-container + main {
-  max-width: initial;
-}

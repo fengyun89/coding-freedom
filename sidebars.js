@@ -19,36 +19,11 @@ const sidebars = {
   // But you can create a sidebar manually
   programming: [
     {
-      type: 'doc',
-      label: '概览',
-      id: 'index'
-    },
-    {
       type: 'category',
       label: '编程语言',
-      link: {
-        type: 'doc',
-        id: '编程语言/index',
-      },
       items: [
-        {
-          type: 'category',
-          label: '机器语言',
-          link: {
-            type: 'doc',
-            id: '编程语言/机器语言/index',
-          },
-          items: [],
-        },
-        {
-          type: 'category',
-          label: '汇编语言',
-          link: {
-            type: 'doc',
-            id: '编程语言/汇编语言/index',
-          },
-          items: [],
-        },
+        '编程语言/机器语言',
+        '编程语言/汇编语言',
         {
           type: 'category',
           label: 'C语言',
@@ -109,38 +84,30 @@ const sidebars = {
         {
           type: 'category',
           label: 'C++',
-          link: {
-            type: 'doc',
-            id: '编程语言/C++/index',
-          },
-          items: [],
+          items: [
+            '编程语言/C++/index'
+          ],
         },
         {
           type: 'category',
           label: 'Java',
-          link: {
-            type: 'doc',
-            id: '编程语言/Java/index',
-          },
-          items: [],
+          items: [
+            '编程语言/Java/index',
+          ],
         },
         {
           type: 'category',
           label: 'JavaScript',
-          link: {
-            type: 'doc',
-            id: '编程语言/JavaScript/index',
-          },
-          items: [],
+          items: [
+            '编程语言/JavaScript/index',
+          ],
         },
         {
           type: 'category',
-          label: 'DSL',
-          link: {
-            type: 'doc',
-            id: '编程语言/DSL/index',
-          },
-          items: [],
+          label: 'TypeScript',
+          items: [
+            '编程语言/TypeScript/index',
+          ],
         },
       ],
     },

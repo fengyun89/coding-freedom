@@ -114,10 +114,6 @@ const sidebars = {
     {
       type: 'category',
       label: '程序设计',
-      link: {
-        type: 'doc',
-        id: '程序设计/index',
-      },
       items: [
         {
           type: 'category',
@@ -169,10 +165,6 @@ const sidebars = {
     {
       type: 'category',
       label: '软件工程',
-      link: {
-        type: 'doc',
-        id: '软件工程/index',
-      },
       items: [
         '软件工程/业务调研',
         '软件工程/业务设计',
@@ -218,20 +210,8 @@ const sidebars = {
     {
       type: 'category',
       label: '计算机数学',
-      link: {
-        type: 'doc',
-        id: '计算机数学/index',
-      },
       items: [
-        {
-          type: 'category',
-          label: '逻辑代数',
-          link: {
-            type: 'doc',
-            id: '计算机数学/逻辑代数/index',
-          },
-          items: [],
-        },
+        '计算机数学/逻辑代数',
       ],
     },
   ],

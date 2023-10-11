@@ -1,1 +1,0 @@
-* [C17/C18 最终草案](https://files.lhmouse.com/standards/ISO%20C%20N2176.pdf)

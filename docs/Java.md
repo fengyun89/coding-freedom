@@ -1,1 +1,0 @@
-* [Java21 语言规范](https://docs.oracle.com/javase/specs/jls/se21/jls21.pdf)

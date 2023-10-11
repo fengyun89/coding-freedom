@@ -27,6 +27,7 @@ const sidebars = {
         '编程语言/C语言',
         '编程语言/C++',
         '编程语言/Java',
+        '编程语言/Python',
         '编程语言/JavaScript',
         '编程语言/TypeScript',
       ],

@@ -73,7 +73,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'programming',
+            sidebarId: 'docs',
             position: 'left',
             label: '编程',
           },

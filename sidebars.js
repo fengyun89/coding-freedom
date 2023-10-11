@@ -30,7 +30,6 @@ const sidebars = {
     'C语言',
     'C++',
     'Java',
-    'Python',
     'JavaScript',
     'TypeScript',
     '软件工程',
